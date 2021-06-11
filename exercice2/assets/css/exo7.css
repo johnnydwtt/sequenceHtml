@@ -10,3 +10,8 @@ body{
 .fieldset3, .legend3{
     background-color: rgb(221, 55, 55);
 }
+
+/* pour mettre un doigt pointé quant-on met le curseur sur J'achète*/
+input[type=button] {
+    cursor: pointer;
+  }
