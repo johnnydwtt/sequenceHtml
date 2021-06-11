@@ -1,0 +1,12 @@
+body{
+    margin: 75px;
+}
+.fieldset1, .legend1{
+    background-color: rgb(34, 109, 145);
+}
+.fieldset2, .legend2{
+    background-color: rgb(145, 34, 121);
+}
+.fieldset3, .legend3{
+    background-color: rgb(221, 55, 55);
+}

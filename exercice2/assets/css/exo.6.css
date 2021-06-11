@@ -1,0 +1,88 @@
+.container{
+    /*assigné le flex au parent pour l'enseigner au enfant*/
+    display: flex;
+}
+
+/*cela permet de leurs dire tu peux le faire aussi*/
+/* Ne pas oublier de leurs donner une taille sinon rien ne s'affichera */
+/* mettre une largeur en %*/
+/* j'ai mis 70% et 30% pour completer le pourcentage de 100%*/
+
+.vert{
+    background-color: green;
+    display: flex;
+    height: 30px;
+    width: 70%;
+}
+.blue{
+    background-color: cyan;
+    display: flex;
+    height: 30px;
+    width: 30%;
+
+}
+
+/*on passe maintenant au 2e parents c'est à dire container_2*/
+/* on refais ce que l'on à fait au dessus*/
+/* toujours faire en sorte de comblé c'est à dire que si j'ai 50 je mets 50 pour faire 100*/
+/* maintenant il faut leurs dire d'allais en bas d'ou le DISPLAY FLEX*/
+
+.container_2{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: right;
+}
+.red{
+    display:flex;
+    background-color: tomato;
+    height: 100px;
+    width: 34%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.orange{
+    display:flex;
+    background-color: orange;
+    height: 50px;
+    width: 33%;
+    flex-wrap: wrap;
+}
+.gray{
+    display:flex;
+    background-color: gray;
+    height: 50px;
+    width: 33%;
+    flex-wrap: wrap;
+
+}
+.yellow{
+    display:flex;
+    background-color: yellow;
+    height: 50px;
+    width: 20%;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.green{
+    display:flex;
+    background-color: teal;
+    height: 50px;
+    width: 20%;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.orange_2{
+    display:flex;
+    background-color: orangered;
+    height: 50px;
+    width: 20%;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.black{
+    background-color: rgb(44, 37, 37);
+    height: 150px;
+}
