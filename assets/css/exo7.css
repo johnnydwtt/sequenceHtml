@@ -1,16 +1,21 @@
 body{
-    margin: 58px;
+    margin: 75px;
 }
 .fieldset1, .legend1{
-    background-color: rgb(34, 109, 145);
+    background-color: #2574A9;
 }
 .fieldset2, .legend2{
-    background-color: rgb(145, 34, 121);
+    background-color: #9A12B3;
 }
 .fieldset3, .legend3{
-    background-color: rgb(221, 55, 55);
+    background-color: #DB0A5B;
 }
-
+.space_card{
+    margin-left: 80px;
+}
+.card_up{
+    margin-bottom: 10px;
+}
 /* pour mettre un doigt pointé quant-on met le curseur sur J'achète*/
 input[type=button] {
     cursor: pointer;

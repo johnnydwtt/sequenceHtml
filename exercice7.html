@@ -20,14 +20,16 @@
 
                 <ol>
                     <li>
-                        <label for="text">Nom</label>:<input type="text" placeholder="nom" name="nom" />
+                        <label for="lastname">Nom:</label>
+                        <input type="text" placeholder="nom" name="lastname" id="lastname"/>
                     </li>
                     <li>
-                        <label for="text">Prénom</label>:<input type="text" placeholder="prénom" name="prenom" />
+                        <label for="firstname">Prénom:</label>
+                        <input type="text" placeholder="prénom" name="firstname" id="firstname"/>
                     </li>
                     <li>
-                        <label for="text">Adresse mail</label>:<input type="text" placeholder="adresse mail"
-                            name="mail" />
+                        <label for="mail">Adresse mail:</label>
+                        <input type="email" placeholder="adresse mail" name="mail" id="mail"/>
                     </li>
                 </ol>
             </div>
@@ -40,15 +42,16 @@
                 <ol>
                     <li>
                         <!--exemple type de la création d'un encadré avec buton et zone de texte-->
-                        <label for="text">Adresse</label>:
-                        <textarea type="text" name="Adresse" placeholder="adresse"></textarea>
+                        <label for="location">Adresse:</label>
+                        <textarea name="location" placeholder="adresse" id="location" rows="4"></textarea>
                     </li>
                     <li>
-                        <label for="text">Code postal</label>:<input type="text" placeholder="ex: 80000"
-                            name="ex: 80000" />
+                        <label for="postal_code">Code postal:</label>
+                        <input type="text" placeholder="ex: 80000" name="postal_code" id="postal_code"/>
                     </li>
                     <li>
-                        <label for="text">Ville</label>:<input type="text" placeholder="ville" name="ville" />
+                        <label for="city">Ville:</label>
+                        <input type="text" placeholder="ville" name="city" id="city" />
                     </li>
                 </ol>
             </div>
@@ -60,21 +63,19 @@
 
                 <ol>
                     <li>
-                        <label for="text">Type de carte bancaire</label>:
-                        <br><input type="radio" name="cart"/>VISA
-                        <br><input type="radio" name="cart" />Mastercard
+                        <label>Type de carte bancaire:</label>
+                        <div class="space_card"><input type="radio" name="cart"/>VISA</div>
+                        <div class="space_card card_up"><input checked type="radio" name="cart" />Mastercard</div>
                     </li>
                     <li>
-                        <label for="text">Numéro de carte</label>:<input type="text" placeholder="numéro de carte"
-                            name="number_card" />
+                        <label for="cartnumber">Numéro de carte:</label>
+                        <input type="text" placeholder="numéro de carte" name="cartnumber" id="cartnumber" />
                     </li>
                     <li>
-                        <label for="text">Code de sécurité</label>:<input type="text" placeholder="code de sécurité"
-                            name="code_safe" />
+                        <label for="securitycode">Code de sécurité:</label><input type="text" placeholder="code de sécurité" name="securitycode" id="securitycode"/>
                     </li>
                     <li>
-                        <label for="text">Nom du titulaire</label>:<input type="text" placeholder="nom du titulaire"
-                            name="adresse mail" />
+                        <label for="mailadress">Nom du titulaire:</label><input type="text" placeholder="nom du titulaire" name="mailadress" id="mailadress" />
                     </li>
                 </ol>
             </div>
@@ -82,7 +83,7 @@
         
         <div>
             <!-- création d'un bouton avec curseur-->
-            <a target="_blank" title="achat" href="achateffectuer.html"><input type="button" value="J'achète !"></a>
+            <input type="button" title="achat" value="J'achète !">
         </div>
 
 
